@@ -1,0 +1,15 @@
+# Visual Studio
+Debug/
+Simulation/
+Release/
+*.pem
+*.opensdf
+*.suo
+*.sdf
+*.vcxproj.user
+
+# SGX
+application/enclave_u.c
+application/enclave_u.h
+enclave/enclave_t.c
+enclave/enclave_t.h

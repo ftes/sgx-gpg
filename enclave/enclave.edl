@@ -1,0 +1,13 @@
+enclave {
+	from "../sgx-lib/sgx_lib_t/sgx_lib.edl" import *;
+
+    trusted {
+        /* define ECALLs here. */
+		public void test_ecall();
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+    
+    };
+};
