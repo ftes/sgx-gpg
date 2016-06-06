@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enclave", "enclave.vcxproj", "{C434B595-5228-4DB2-AA3B-7675A89F0715}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enclave", "enclave\enclave.vcxproj", "{C434B595-5228-4DB2-AA3B-7675A89F0715}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sgx_lib_t", "..\sgx-lib\sgx_lib_t\sgx_lib_t.vcxproj", "{1426FF60-1BC6-4F41-80D4-3C15BE167046}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sgx_lib_t", "sgx-lib\sgx_lib_t\sgx_lib_t.vcxproj", "{1426FF60-1BC6-4F41-80D4-3C15BE167046}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sgx_lib_u", "..\sgx-lib\sgx_lib_u\sgx_lib_u.vcxproj", "{9367A9A8-6153-4053-8E72-B9CEDBADEA2D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sgx_lib_u", "sgx-lib\sgx_lib_u\sgx_lib_u.vcxproj", "{9367A9A8-6153-4053-8E72-B9CEDBADEA2D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "application", "..\application\application.vcxproj", "{A0568069-BCC9-43F3-A2EF-86DA9152B566}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "application", "application\application.vcxproj", "{A0568069-BCC9-43F3-A2EF-86DA9152B566}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
